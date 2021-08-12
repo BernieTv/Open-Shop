@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Shop</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/title_icon.png">
+    <link rel="stylesheet" href="libs/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media.css">
+    <link rel="stylesheet" href="libs/bootstrap.bundle.min.js">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header__prenav">
+        <div class="container">
+            <ul class="prenav_list">
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <div class="prenav__arrow_description">
+                        <div class="prenav__link">
+                            English
+                        </div> 
+                        <span class="prenav__arrow_itself fa"></span>
+                    </div>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item prenav__dropdown_link" href="#">Russian</a></li>
+                        <li><a class="dropdown-item prenav__dropdown_link" href="#">Spanish</a></li>
+                    </ul>
+                </div>
+                <li class="prenav__item"><a href="tel:(907)555-0101" class="prenav__link"><span class="prenav__tel fa"></span>(907) 555-0101</a></li>
+                <li class="prenav__item"><a href="#" class="prenav__link"><span class="prenav__contact fa"></span>Sing in</a></li>
+                <li class="prenav__item"><a href="#" class="prenav__link"><span class="prenav__cart fa"></span>Cart</a></li>
+            </ul>
+        </div>
+    </div>
+    <header class="header">
+        <nav class="navbar justify-content-lg-center">
+            <div class="container-xxl  header__centralize">
+                <a class="header__logo" href="index.html"></a>
+                <form class="header__form d-flex" action="#">
+                    <input class="header__navbar_search" type="search" placeholder="What are you looking for?" aria-label="Search">
+                    <button type="submit">
+                        <div class="navbar__button_description">
+                            <div class="navbar__button_info">
+                                SEARCH OUR STORE
+                            </div>
+                            <span class="navbar__button_icon fa"></span>
+                        </div>
+                    </button>
+                </form>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-xl d-xl-table mx-auto">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="header__nav_toggler fa"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav position-relative">
+                    <a class="header__nav_link active" aria-current="page" href="#">Cell Phones & Tablets</a>
+                    <div class="header__tooltip">
+                        <div class="header__tooltip_left d-flex flex-column align-items-start">
+                            <h5 class="tooltip__title">Cell Phones</h5>
+                            <ul class="header__tooltip_list">
+                                <li class="tooltip__list_item"><a href="#" class="tooltip__link">Xiaomi</a></li>
+                                <li class="tooltip__list_item"><a href="#" class="tooltip__link">Apple</a></li>
+                                <li class="tooltip__list_item"><a href="#" class="tooltip__link">Samsung</a></li>
+                                <li class="tooltip__list_item"><a href="#" class="tooltip__link">Huawei</a></li>
+                                <li class="tooltip__list_item"><a href="#" class="tooltip__link">BQ</a></li>
+                                <li class="tooltip__list_item"><a href="#" class="tooltip__link">Nokia</a></li>
+                                <li class="tooltip__list_item"><a href="#" class="tooltip__link">Inoi</a></li>
+                                <li class="tooltip__list_item"><a href="#" class="tooltip__link">Vivo</a></li>
+                            </ul>
+                        </div>
+                        <div class="header__tooltip_right d-flex flex-column align-items-start">
+                            <h5 class="tooltip__title">Tablets</h5>
+                            <ul class="header__tooltip_list">
+                                <li class="tooltip__list_item"><a href="#" class="tooltip__link">Xiaomi</a></li>
+                                <li class="tooltip__list_item"><a href="#" class="tooltip__link">Apple</a></li>
+                                <li class="tooltip__list_item"><a href="#" class="tooltip__link">Samsung</a></li>
+                                <li class="tooltip__list_item"><a href="#" class="tooltip__link">Huawei</a></li>
+                                <li class="tooltip__list_item"><a href="#" class="tooltip__link">BQ</a></li>
+                                <li class="tooltip__list_item"><a href="#" class="tooltip__link">More...</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a class="header__nav_link" href="#">Computers & Laptop</a>
+                    <a class="header__nav_link" href="#">Tv & Video</a>
+                    <a class="header__nav_link" href="#">Asseccories</a>                    
+                    <a class="header__nav_link" href="#homeappliance">Home Appliance</a>
+                    <a class="header__nav_link" href="#">Video Games & Consoles</a>
+                </div>
+            </div>
+            </div>
+        </nav>
+        <div class="header__content">
+            <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="header__content_items d-flex justify-content-between h-100 header__carousel_centralize">
+                            <div class="header__content_left">
+                                <img src="images/header_slide1.png" alt="Header Content" class="header__content_img w-100">
+                            </div>
+                            <div class="header__content_right d-flex flex-column flex-grow-1 justify-content-center align-items-center h-auto">
+                                <h2 class="header__content_title">Color your days with small joy</h2>
+                                <a href="#" class="header__content_link">SHOP NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="header__content_items d-flex justify-content-between h-100 header__carousel_centralize">
+                            <div class="header__content_left">
+                                <img src="images/header_slide2.png" alt="Header Content" class="header__content_img w-100">
+                            </div>
+                            <div class="header__content_right d-flex flex-column flex-grow-1 justify-content-center align-items-center h-auto">
+                                <h2 class="header__content_title">Color your days with small joy</h2>
+                                <a href="#" class="header__content_link">SHOP NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+    <main class="mainPage2">
+        <section class="mainPage2__pills">
+            <div class="container-xxl">
+                <div class="row h-100 flex-column flex-xxl-row">
+                    <ul class="nav nav-pills justify-content-center flex-xxl-column col-xl-2 mainPage2__pills_list">
+                        <li class="mainPage2__pills_item">
+                            <a class="mainPage2__pills_link active" aria-current="page" href="#iphone1" data-bs-toggle="pill"><img src="images/main__page2_img1.png" alt="Apple iPhone 12 Pro Max 128GB (Gray)" class="mainPage2__pills_img"></a>
+                        </li>
+                        <li class="mainPage2__pills_item">
+                            <a class="mainPage2__pills_link" href="#iphone2" data-bs-toggle="pill"><img src="images/main__page2_img2.png" alt="Apple iPhone 12 Pro Max 128GB (Gray)" class="mainPage2__pills_img"></a>
+                        </li>
+                        <li class="mainPage2__pills_item">
+                            <a class="mainPage2__pills_link" href="#iphone3" data-bs-toggle="pill"><img src="images/main__page2_img3.png" alt="Apple iPhone 12 Pro Max 128GB (Gray)" class="mainPage2__pills_img"></a>
+                        </li>
+                    </ul>
+                    <div class="tab-content col-xl-10 col-12 mainPage2__centralize">
+                        <div class="tab-pane mainPage2__content active fade show" id="iphone1">
+                            <div class="row centre">
+                                <div class="col-12 col-lg3 col-md-4">
+                                    <img src="images/main__page2_img6.png" alt="Apple iPhone 12 Pro Max 128GB (Gray)" class="mainPage2__content_img">
+                                </div>
+                                <div class="col">
+                                    <h3 class="mainPage2__content_name">Apple iPhone 12 Pro Max 128GB (Gray)</h3>
+                                    <p class="mainPage2__content_cost">1300$</p>
+                                    <h6 class="mainPage2__content_title">Product Highlights</h6>
+                                    <ul class="mainPage2__content_characteristics">
+                                        <li><p class="mainPage2__content_characteristic">128 GB ROM</p></li> 
+                                        <li><p class="mainPage2__content_characteristic">13.72 cm (5.4 inch) Super Retina XDR Display</p></li>
+                                        <li><p class="mainPage2__content_characteristic">12MP + 12MP | 12MP Front Camera</p></li>
+                                        <li><p class="mainPage2__content_characteristic">A14 Bionic Chip with Next Generation Neural Engine Processor</p></li>
+                                        <li><p class="mainPage2__content_characteristic">Ceramic Shield</p></li> 
+                                        <li><p class="mainPage2__content_characteristic">IP68 Water Resistance</p></li> 
+                                        <li><p class="mainPage2__content_characteristic">All Screen OLED Display</p></li>
+                                        <li><p class="mainPage2__content_characteristic">The shipment for this product will begin from 14th November 2020</p></li>
+                                    </ul>
+                                    <div class="mainPage2__content_links">
+                                        <div class="main__content_link">
+                                            <a href="index_2.html" class="header__content_link d-inline-flex"><span class="prenav__cart fa"></span> CART</a>
+                                        </div>
+                                        <div class="main__content_link">
+                                            <a href="index_2.html" class="header__content_link d-inline-flex">BUY NOW</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane mainPage2__content fade" id="iphone2">
+                            <div class="row">
+                                <div class="col-12 col-lg3 col-md-4">
+                                    <img src="images/main__page2_img4.png" alt="Apple iPhone 12 Pro Max 128GB (Gray)" class="mainPage2__content_img">
+                                </div>
+                                <div class="col">
+                                    <h3 class="mainPage2__content_name">Apple iPhone 12 Pro Max 128GB (Gray)</h3>
+                                    <p class="mainPage2__content_cost">1300$</p>
+                                    <h6 class="mainPage2__content_title">Product Highlights</h6>
+                                    <ul class="mainPage2__content_characteristics">
+                                        <li><p class="mainPage2__content_characteristic">128 GB ROM</p></li> 
+                                        <li><p class="mainPage2__content_characteristic">13.72 cm (5.4 inch) Super Retina XDR Display</p></li>
+                                        <li><p class="mainPage2__content_characteristic">12MP + 12MP | 12MP Front Camera</p></li>
+                                        <li><p class="mainPage2__content_characteristic">A14 Bionic Chip with Next Generation Neural Engine Processor</p></li>
+                                        <li><p class="mainPage2__content_characteristic">Ceramic Shield</p></li> 
+                                        <li><p class="mainPage2__content_characteristic">IP68 Water Resistance</p></li> 
+                                        <li><p class="mainPage2__content_characteristic">All Screen OLED Display</p></li>
+                                        <li><p class="mainPage2__content_characteristic">The shipment for this product will begin from 14th November 2020</p></li>
+                                    </ul>
+                                    <div class="mainPage2__content_links">
+                                        <div class="main__content_link">
+                                            <a href="index_2.html" class="header__content_link d-inline-flex"><span class="prenav__cart fa"></span> CART</a>
+                                        </div>
+                                        <div class="main__content_link">
+                                            <a href="index_2.html" class="header__content_link d-inline-flex">BUY NOW</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="tab-pane mainPage2__content fade" id="iphone3">
+                            <div class="row">
+                                <div class="col-12 col-lg3 col-md-4">
+                                    <img src="images/main__page2_img5.png" alt="Apple iPhone 12 Pro Max 128GB (Gray)" class="mainPage2__content_img">
+                                </div>
+                                <div class="col">
+                                    <h3 class="mainPage2__content_name">Apple iPhone 12 Pro Max 128GB (Gray)</h3>
+                                    <p class="mainPage2__content_cost">1300$</p>
+                                    <h6 class="mainPage2__content_title">Product Highlights</h6>
+                                    <ul class="mainPage2__content_characteristics">
+                                        <li><p class="mainPage2__content_characteristic">128 GB ROM</p></li> 
+                                        <li><p class="mainPage2__content_characteristic">13.72 cm (5.4 inch) Super Retina XDR Display</p></li>
+                                        <li><p class="mainPage2__content_characteristic">12MP + 12MP | 12MP Front Camera</p></li>
+                                        <li><p class="mainPage2__content_characteristic">A14 Bionic Chip with Next Generation Neural Engine Processor</p></li>
+                                        <li><p class="mainPage2__content_characteristic">Ceramic Shield</p></li> 
+                                        <li><p class="mainPage2__content_characteristic">IP68 Water Resistance</p></li> 
+                                        <li><p class="mainPage2__content_characteristic">All Screen OLED Display</p></li>
+                                        <li><p class="mainPage2__content_characteristic">The shipment for this product will begin from 14th November 2020</p></li>
+                                    </ul>
+                                    <div class="mainPage2__content_links">
+                                        <div class="main__content_link">
+                                            <a href="#" class="header__content_link d-inline-flex"><span class="prenav__cart fa"></span> CART</a>
+                                        </div>
+                                        <div class="main__content_link">
+                                            <a href="#" class="header__content_link d-inline-flex">BUY NOW</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mainPage2__playstationVr">
+            <div class="container-xxl">
+                <div class="row">
+                    <div class="col mainPage2__playstationVr_content">
+                        <img src="images/main__page2_playstation.png" alt="Plastation VR" class="mainPage2__playstationVr_img w-100" id="homeapplince">
+                        <div class="mainPage2__playstationVr_about">
+                            <h4 class="playstationVr__about_title">Plastation VR</h4>
+                            <p class="playstationVr__about_description">Over 500 games and experiences and counting. See them all</p>
+                            <div class="main__content_link">
+                                <a href="#" class="header__content_link d-inline-flex">LEARN MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="footer__content footer__page2">
+            <div class="container-xxl">
+                <div class="row">
+                    <div class="col-12 col-xxl-2 d-flex align-items-center justify-content-center">
+                        <a href="index.html"><span class="footer__logo"></span></a>
+                    </div>
+                    <div class="col-12 col-xxl-8 d-flex align-items-center justify-content-center">
+                        <div class="footer__center">
+                            <a href="#" class="footer__subscribe">Subscribe to Newsletter</a>
+                            <form class="d-flex justify-content-center footer__centralize" action="#">
+                                <input class="footer__search" type="search" aria-label="Search">
+                                <button type="submit">
+                                    <div class="footer__button_description">
+                                        <div class="footer__button_info">
+                                            SING UP
+                                        </div>
+                                    </div>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-12 col-xxl-2 d-flex justify-content-center align-items-end footer__smedia_center">
+                        <div class="footer__socialmedias">
+                            <a href="#" class="footer__socialmedias_link"><img src="images/footer__icon1.png" alt="Telegram" class="footer__socialmedias_icon1"></a>
+                            <a href="#" class="footer__socialmedias_link"><img src="images/footer__icon2.png" alt="Facebook" class="footer__socialmedias_icon2"></a>
+                            <a href="#" class="footer__socialmedias_link"><img src="images/footer__icon3.png" alt="Instagram" class="footer__socialmedias_icon3"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xxl-3 d-xxl-block d-none p-0"></div>
+                    <div class="col-12 col-xxl-9 d-flex align-items-center justify-content-center justify-content-xxl-start p-0">
+                        <ul class="footer__list d-flex">
+                            <li class="footer__list_item"><a href="#" class="footer__list_link">News</a></li>
+                            <li class="footer__list_item"><a href="#" class="footer__list_link">Help</a></li>
+                            <li class="footer__list_item"><a href="#" class="footer__list_link">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="libs/bootstrap.min.js"></script>
+</body>
+</html>

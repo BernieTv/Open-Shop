@@ -1,0 +1,449 @@
+@media(prefers-color-scheme: dark) {
+    :root {
+        --primary-color: #313131;
+        --secondary-color: #FFFFFF;
+        --third-color:#0C0C0C;
+        --fourth-color: #E3E3E3;
+    }
+    body {
+        background-color: var(--primary-color);
+    }
+    .header__navbar_search {
+        background-color: var(--primary-color);
+        border-color: var(--secondary-color);
+    }
+    .navbar__button_description {
+        border: 1px solid var(--secondary-color);
+    }
+    .carousel-indicators [data-bs-target].active {
+        background-color: var(--secondary-color);
+    }
+    .header__content_title {
+        color: var(--secondary-color);
+    }
+    .header__nav_link {
+        color: var(--secondary-color);
+    }
+    .header__nav_link:hover {
+        color: var(--secondary-color);
+    }
+    .header__content_left {
+        filter: drop-shadow(-10px 5px 12px rgba(255, 255, 255, 0.609));
+    }
+    .header__logo::before {
+        content: url("../images/header__logo_dark.png");
+    }
+    .header__content_link {
+        border: 1px solid var(--secondary-color);
+        color: var(--secondary-color);
+        background-color: var(--primary-color);
+    }
+    .header__content_link:hover {
+        color: var(--secondary-color);
+    }
+    .header__nav_toggler, .playstationVr__about_description {
+        color: var(--secondary-color);
+    }
+    .header__tooltip::before {
+        background-color: var(--secondary-color);
+    }
+    .header__tooltip {
+        background-color: var(--third-color);
+    }
+    .tooltip__title, .tooltip__link {
+        color: var(--secondary-color);
+    }
+    .tooltip__title:hover {
+        color: var(--secondary-color);
+    }
+    .tooltip__title {
+        text-decoration: underline solid #e5e5e5 !important;
+    }
+    .dropdown-menu {
+        background-color: var(--third-color);
+    }
+    .prenav__dropdown_link, .mainPage2__content_cost, .mainPage2__content_title, .mainPage2__content_characteristic, .playstationVr__about_title {
+        color: var(--secondary-color);
+    }
+    .tooltip__link:hover {
+        color: var(--secondary-color);
+    }
+    .header__content .carousel-indicators [data-bs-target].active {
+        background-color: var(--secondary-color);
+    }
+    .card-img-top {
+        background-color: var(--primary-color);
+    }
+    .card-title, .card-text, .main__title, .playstation__about_title, .main__xbox_title, .main__xbox_description, .mainPage2__content_name {
+        color: var(--secondary-color);
+    }
+    ::-webkit-scrollbar {
+        background-color: var(--secondary-color);
+    }
+    ::-webkit-scrollbar-thumb {
+        border-radius: 20px;
+    }
+    .playstation__about_img::before {
+        content: url("../images/ps5__dark.png")
+    }
+    .main__xbox_background {
+        background-color: var(--fourth-color);
+    }
+    .footer__content, .footer__button_description {
+        background-color: var(--third-color);
+    }
+    .mainPage2__pills_item {
+        border-color: var(--fourth-color);
+    }
+    .mainPage2__content_characteristics li::before {
+        background-color: var(--secondary-color);
+    }
+}
+@media (max-width: 1880px) {
+    .main__xbox_background {
+        max-height: 188px;
+    }
+}
+@media (max-width: 1780px) {
+    .main__xbox_background {
+        max-height: 178px;
+    }
+}@media (max-width: 1680px) {
+    .main__xbox_background {
+        max-height: 168px;
+    }
+    .main__xbox_content {
+        left: 0;
+        top: -20px;
+    }
+    .main__xbox .main__content_link {
+        bottom: -10px;
+    }
+}
+@media (max-width: 1580px) {
+    .main__xbox_background {
+        max-height: 158px;
+    }
+    .main__xbox_content {
+        top: -40px;
+    }
+    .main__xbox .main__content_link {
+        bottom: -30px;
+    }
+}
+@media (max-width: 1480px) {
+    .main__xbox_background {
+        max-height: 148px;
+    }
+}
+@media (max-width: 1400px){
+    .main__xbox_content {
+        top: 10px;
+        left: 20px;
+    }
+    .main__xbox .main__content_link {
+        bottom: 20px;
+    }
+    .footer__socialmedias {
+        margin-top: 20px;
+    }
+    .footer__logo {
+        margin-bottom: 20px;
+    }
+    .mainPage2__pills_list {
+        width: 100%;
+        flex-direction: row !important;
+        margin-bottom: 20px;
+    }
+    .mainPage2__pills_item:nth-of-type(2) {
+        margin: 0 50px;
+    }
+    .mainPage2__centralize {
+        display: table;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 1200px) {
+    .header__nav_link {
+        margin-bottom: 10px;
+    }
+    .prenav_list {
+        justify-content: center;
+    }
+    .header__tooltip {
+        left: 0;
+    }
+    .content__img3 {
+        margin-top: 20px;
+    }
+    .main__xbox_content {
+        position: static;
+        display: inline-flex;
+        align-items: center;
+        margin-top: 15px;
+    }
+    .main__xbox_about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main__xbox .main__content_link {
+        position: static;
+        margin-bottom: 20px;
+    }
+    .footer__list {
+        margin-left: -20px;
+    }
+}
+@media (max-width: 1140px) {
+    .footer__page2 {
+        margin-top: 50px;
+    }
+    .mainPage2__playstationVr_about {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .playstationVr__about_description {
+        width: 400px;
+        text-align: center;
+    }
+    .mainPage2__playstationVr_content .main__content_link {
+        position: static;
+        margin-top: 30px;
+    }
+}
+@media (max-width: 1030px) {
+    .playstation__about {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .playstation__about_title {
+        margin-bottom: 30px;
+    }
+
+}
+@media (max-width: 992px) {
+    .header__content_title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .content__img3{
+        margin-left: -7px;
+        margin-top: 15px;
+    }
+    .content__img4 {
+        margin-top: 12px;
+    }
+    .footer__search {
+        width: 350px;
+    }
+    .footer__content {
+        padding: 20px 0;
+    }
+    .centre {
+        flex-direction: column;
+        align-items: center;
+    }
+    .mainPage2__content_name, .mainPage2__content_cost, .mainPage2__content_title {
+        text-align: center;
+    }
+    .mainPage2__content_characteristics {
+        display: table;
+        margin: 0 auto;
+    }
+    .mainPage2__content_links {
+        justify-content: center;
+    }
+}
+@media (max-width: 850px) {
+    .header__centralize {
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+}
+@media (max-width: 770px) {
+    .prenav_list {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .prenav__item:nth-of-type(2) .prenav__link {
+        margin: 0 10px;
+    }
+    .prenav__link {
+        padding: 10px 0;
+    }
+    .dropdown {
+        margin-right: 20px;
+    }
+    .main__title {
+        text-align: center;
+    }
+    .playstation__about_title {
+        font-size: 35px;
+        line-height: 48px;
+    }
+    .main__xbox_title {
+        font-size: 38px;
+        line-height: 40px;
+    }
+    .main__xbox_description {
+        font-size: 18px;
+        line-height: 22px;
+        max-width: 350px;
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width: 767px) {
+    .mainPage2__content_img {
+        display: block;
+        width: auto;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 680px) {
+    .mainPage2__content_name {
+        font-size: 24px;
+        line-height: 48px;
+        margin-bottom: 15px;
+    }
+    .mainPage2__content_cost, .mainPage2__content_title {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .playstationVr__about_title {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .playstationVr__about_description {
+        width: 350px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+@media (max-width: 580px) {
+    .header__form {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .navbar__button_description {
+        justify-content: center;
+    }
+    .header__content_title {
+        margin-bottom: 60px;
+    }
+    .playstation__about_title {
+        font-size: 28px;
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+    .footer__button_description {
+        width: 100%;
+    }
+    .footer__smedia_center {
+        align-items: center !important;
+    }
+    .header__carousel_centralize, .footer__centralize {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer__list {
+        margin-top: 20px;
+    }
+    .footer__list_item:nth-of-type(2) {
+        margin: 0 25px;
+    }
+    .mainPage2__content_characteristic {
+        font-size: 12px;
+    }
+}
+@media (max-width: 492px) {
+    .mainPage2__content_name {
+        font-size: 18px;
+        line-height: 32px
+    }
+    .mainPage2__content_cost, .mainPage2__content_title {
+        font-size: 15px;
+        line-height: 18px;
+    }
+}
+@media (max-width: 460px) {
+    .header__navbar_search {
+        width: 280px;
+    }
+    .navbar__button_info {
+        display: inline-flex;
+        justify-content: center;
+    }
+    .header__tooltip {
+        width: 270px;
+    }
+    .header__tooltip::before {
+        width: 230px;
+    }
+    .header__content_link {
+        padding: 12px 23px;
+        font-size: 15px;
+    }
+    .main__xbox_title {
+        font-size: 30px;
+        line-height: 28px;
+    }
+    .main__xbox_description {
+        font-size: 15px;
+        line-height: 28px;
+    }
+    .mainPage2__pills_list {
+        justify-content: center;
+    }
+    .mainPage2__pills_item:nth-of-type(2) {
+        margin: 10px;
+    }
+    .mainPage2__content_img {
+        width: 100%;
+    }
+    .mainPage2__content_characteristic {
+        word-wrap: break-word;
+    }
+}
+@media (max-width: 387px) {
+    .mainPage2__content_characteristics li::before {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 380px) {
+    .footer__search {
+        width: 280px;
+    }
+    .mainPage2__content_name {
+        font-size: 15px;
+        line-height: 24px;
+    }
+}
+@media (max-width: 360px) {
+    .main__xbox_title {
+        font-size: 24px;
+    }
+    .main__xbox_description {
+        font-size: 12px;
+    }
+}
+@media (max-width: 337px) {
+    .mainPage2__pills_item:nth-of-type(2) {
+        margin: 0 5px;
+    }
+}
+@media (max-width: 327px) {
+    .mainPage2__pills_item:nth-of-type(1) {
+        margin-bottom: 10px;
+    }
+    .mainPage2__pills_item:nth-of-type(2) {
+        margin-bottom: 10px;
+    }
+}

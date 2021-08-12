@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Shop</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/title_icon.png">
+    <link rel="stylesheet" href="libs/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media.css">
+    <link rel="stylesheet" href="libs/bootstrap.bundle.min.js">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header__prenav">
+        <div class="container">
+            <ul class="prenav_list">
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <div class="prenav__arrow_description">
+                        <div class="prenav__link">
+                            English
+                        </div> 
+                        <span class="prenav__arrow_itself fa"></span>
+                    </div>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item prenav__dropdown_link" href="#">Russian</a></li>
+                        <li><a class="dropdown-item prenav__dropdown_link" href="#">Spanish</a></li>
+                    </ul>
+                </div>
+                <li class="prenav__item"><a href="tel:(907)555-0101" class="prenav__link"><span class="prenav__tel fa"></span>(907) 555-0101</a></li>
+                <li class="prenav__item"><a href="#" class="prenav__link"><span class="prenav__contact fa"></span>Sing in</a></li>
+                <li class="prenav__item"><a href="#" class="prenav__link"><span class="prenav__cart fa"></span>Cart</a></li>
+            </ul>
+        </div>
+    </div>
+    <header class="header">
+        <nav class="navbar justify-content-lg-center">
+            <div class="container-xxl  header__centralize">
+                <a class="header__logo" href="#"></a>
+                <form class="header__form d-flex" action="#">
+                    <input class="header__navbar_search" type="search" placeholder="What are you looking for?" aria-label="Search">
+                    <button type="submit">
+                        <div class="navbar__button_description">
+                            <div class="navbar__button_info">
+                                SEARCH OUR STORE
+                            </div>
+                            <span class="navbar__button_icon fa"></span>
+                        </div>
+                    </button>
+                </form>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-xl d-xl-table mx-auto">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="header__nav_toggler fa"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav position-relative">
+                    <a class="header__nav_link active" aria-current="page" href="#">Cell Phones & Tablets</a>
+                    <div class="header__tooltip">
+                        <div class="header__tooltip_left d-flex flex-column align-items-start">
+                            <a href="#cellphone" class="tooltip__title">Cell Phones</a>
+                            <ul class="header__tooltip_list">
+                                <li class="tooltip__list_item"><a href="#xiaomi" class="tooltip__link">Xiaomi</a></li>
+                                <li class="tooltip__list_item"><a href="#apple" class="tooltip__link">Apple</a></li>
+                                <li class="tooltip__list_item"><a href="#samsung" class="tooltip__link">Samsung</a></li>
+                                <li class="tooltip__list_item"><a href="#" class="tooltip__link">Huawei</a></li>
+                                <li class="tooltip__list_item"><a href="#" class="tooltip__link">BQ</a></li>
+                                <li class="tooltip__list_item"><a href="#" class="tooltip__link">Nokia</a></li>
+                                <li class="tooltip__list_item"><a href="#" class="tooltip__link">Inoi</a></li>
+                                <li class="tooltip__list_item"><a href="#" class="tooltip__link">Vivo</a></li>
+                            </ul>
+                        </div>
+                        <div class="header__tooltip_right d-flex flex-column align-items-start">
+                            <h5 class="tooltip__title">Tablets</h5>
+                            <ul class="header__tooltip_list">
+                                <li class="tooltip__list_item"><a href="#xiaomi" class="tooltip__link">Xiaomi</a></li>
+                                <li class="tooltip__list_item"><a href="#apple" class="tooltip__link">Apple</a></li>
+                                <li class="tooltip__list_item"><a href="#samsung" class="tooltip__link">Samsung</a></li>
+                                <li class="tooltip__list_item"><a href="#" class="tooltip__link">Huawei</a></li>
+                                <li class="tooltip__list_item"><a href="#" class="tooltip__link">BQ</a></li>
+                                <li class="tooltip__list_item"><a href="#" class="tooltip__link">More...</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a class="header__nav_link" href="#computers">Computers & Laptop</a>
+                    <a class="header__nav_link" href="#consoles2">Tv & Video</a>
+                    <a class="header__nav_link" href="#accesories">Asseccories</a>                    
+                    <a class="header__nav_link" href="#">Home Appliance</a>
+                    <a class="header__nav_link" href="#consoles">Video Games & Consoles</a>
+                </div>
+            </div>
+            </div>
+        </nav>
+        <div class="header__content">
+            <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="header__content_items d-flex justify-content-between h-100 header__carousel_centralize">
+                            <div class="header__content_left">
+                                <img src="images/header_slide1.png" alt="Header Content" class="header__content_img w-100">
+                            </div>
+                            <div class="header__content_right d-flex flex-column flex-grow-1 justify-content-center align-items-center h-auto">
+                                <h2 class="header__content_title">Color your days with small joy</h2>
+                                <a href="#" class="header__content_link">SHOP NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="header__content_items d-flex justify-content-between h-100 header__carousel_centralize">
+                            <div class="header__content_left">
+                                <img src="images/header_slide2.png" alt="Header Content" class="header__content_img w-100">
+                            </div>
+                            <div class="header__content_right d-flex flex-column flex-grow-1 justify-content-center align-items-center h-auto">
+                                <h2 class="header__content_title">Color your days with small joy</h2>
+                                <a href="#" class="header__content_link">SHOP NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+    <main class="main">
+        <div id="carousel_2" class="carousel slide"> 
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel_2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel_2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel_2" data-bs-slide-to="0,1" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <section class="main__content">
+                    <div class="container-xxl">
+                        <div class="row h-auto">
+                            <div class="col-sm-6">
+                                <img src="images/Suunto SS050143000.png" alt="Sauuto" class="content__img1 w-100 h-auto" id="accesories">
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <img src="images/Airpods 2.1.png" alt="Airpods" class="content__img2 w-100 h-auto">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="images/MI.png" alt="XIAOMI" class="content__img3 w-100 h-auto">
+                                    </div>
+                                    <div class="col-6">
+                                        <img src="images/Remax RP-W1 White.png" alt="Remax RP-W1 White" class="content__img4 w-100 h-auto">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__content_link">
+                            <a href="index_2.html" class="header__content_link d-inline-flex">LEARN MORE</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="main__cellphones">
+                    <div class="container-xxl">
+                        <h4 class="main__title" id="cellphone">Cell Phone</h4>
+                        <div class="row row-cols-sm-2 row-cols-xl-4 row-cols-1 g-4">
+                            <div class="col">
+                                <div class="card h-100 position-relative d-flex flex-column align-items-center">
+                                    <img src="images/main__cellphone1.png" class="card-img-top" alt="IPhone 12 Pro Max 128GB (Gray)">
+                                    <div class="card-body position-absolute p-0">
+                                        <h5 class="card-title">IPhone 12 Pro Max 128GB (Gray)</h5>
+                                        <p class="card-text">1300$</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100 position-relative d-flex flex-column align-items-center">
+                                    <img src="images/main__cellphone2.png" class="card-img-top" alt="IPhone 11 Pro 128GB (Yellow)">
+                                    <div class="card-body position-absolute p-0">
+                                        <h5 class="card-title">IPhone 11 Pro 128GB (Yellow)</h5>
+                                        <p class="card-text">700$</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100 position-relative d-flex flex-column align-items-center">
+                                    <img src="images/main__cellphone3.png" class="card-img-top" alt="IPhone 12 Pro 256 GB (Blue)">
+                                    <div class="card-body position-absolute p-0">
+                                        <h5 class="card-title">IPhone 12 Pro 256 GB (Blue)</h5>
+                                        <p class="card-text">1500$</p>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="col"> 
+                                    <div class="card h-100 position-relative d-flex flex-column align-items-center">
+                                    <img src="images/main__cellphone4.png" class="card-img-top" alt="IPhone 11 Pro 256 GB (Red)">
+                                    <div class="card-body position-absolute p-0">
+                                        <h5 class="card-title">IPhone 11 Pro 256 GB (Red)</h5>
+                                        <p class="card-text">850$</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__content_link">
+                            <a href="index_2.html" class="header__content_link d-inline-flex">LEARN MORE</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="main__laptops">
+                    <div class="container-xxl">
+                        <h4 class="main__title" id="computers">Computers & Laptop</h4>
+                        <div class="row row-cols-sm-2 row-cols-xl-4 row-cols-1 g-4">
+                            <div class="col">
+                                <div class="card h-100 position-relative d-flex flex-column align-items-center">
+                                    <img src="images/main__laptops1.png" class="card-img-top" alt="Lenovo IdeaPad L3 15IML05">
+                                    <div class="card-body position-absolute p-0">
+                                        <h5 class="card-title">Lenovo IdeaPad L3 15IML05</h5>
+                                        <p class="card-text">1350$</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100 position-relative d-flex flex-column align-items-center">
+                                    <img src="images/main__laptops2.png" class="card-img-top" alt="Dream Machines G1650Ti-15UA65">
+                                    <div class="card-body position-absolute p-0">
+                                        <h5 class="card-title">Dream Machines G1650Ti-15UA65</h5>
+                                        <p class="card-text">1430$</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100 position-relative d-flex flex-column align-items-center">
+                                    <img src="images/main__laptops3.png" class="card-img-top" alt="Apple MacBook Air 13'' 2020">
+                                    <div class="card-body position-absolute p-0">
+                                        <h5 class="card-title">Apple MacBook Air 13" 2020</h5>
+                                        <p class="card-text">1723$</p>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="col"> 
+                                    <div class="card h-100 position-relative d-flex flex-column align-items-center">
+                                    <img src="images/main__laptops4.png" class="card-img-top" alt="Dream Machines 15UA51">
+                                    <div class="card-body position-absolute p-0">
+                                        <h5 class="card-title">Dream Machines 15UA51</h5>
+                                        <p class="card-text">1200$</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__content_link">
+                            <a href="index_2.html" class="header__content_link d-inline-flex">LEARN MORE</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="main__playstation">
+                    <div class="container-xxl">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="playstation__content position-relative">
+                                    <img src="images/main__playstation.png" alt="Playstation 5" class="main__playstation_photo w-100" id="consoles">
+                                    <div class="playstation__about">
+                                        <a href="#" class="playstation__about_img"></a>
+                                        <h3 class="playstation__about_title">PlayStation 5 Console</h3>
+                                        <div class="main__content_link">
+                                            <a href="#" class="header__content_link d-inline-flex">WATCH NOW</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="main__topseller">
+                    <div class="container-xxl">
+                        <h4 class="main__title">Top seller</h4>
+                        <div class="row row-cols-sm-2 row-cols-xl-4 row-cols-1 g-4">
+                            <div class="col">
+                                <div class="card h-100 position-relative d-flex flex-column align-items-center">
+                                    <img src="images/main__topseller_img1.png" class="card-img-top" alt="Smart Watch W34 | ZM (White)">
+                                    <div class="card-body position-absolute p-0">
+                                        <h5 class="card-title">Smart Watch W34 | ZM (White)</h5>
+                                        <p class="card-text">29$</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100 position-relative d-flex flex-column align-items-center">
+                                    <img src="images/main__topseller_img2.png" class="card-img-top" alt="AirPods 2.1">
+                                    <div class="card-body position-absolute p-0">
+                                        <h5 class="card-title">AirPods 2.1</h5>
+                                        <p class="card-text">135$</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100 position-relative d-flex flex-column align-items-center">
+                                    <img src="images/main__topseller_img3.png" class="card-img-top" alt="Smart Watch W34 | ZM (Black)">
+                                    <div class="card-body position-absolute p-0">
+                                        <h5 class="card-title">Smart Watch W34 | ZM (Black)</h5>
+                                        <p class="card-text">29$</p>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="col"> 
+                                    <div class="card h-100 position-relative d-flex flex-column align-items-center">
+                                    <img src="images/main__topseller_img4.png" class="card-img-top" alt="Coffee machine VITEK VT-1526">
+                                    <div class="card-body position-absolute p-0">
+                                        <h5 class="card-title">Coffee machine VITEK VT-1526</h5>
+                                        <p class="card-text">78$</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__content_link">
+                            <a href="index_2.html" class="header__content_link d-inline-flex">LEARN MORE</a>
+                        </div>
+                    </div>
+                </section>
+                </div>
+                <div class="carousel-item">
+                    <section class="main__cellphones">
+                        <div class="container-xxl">
+                            <h4 class="main__title" id="apple">Apple</h4>
+                            <div class="row row-cols-sm-2 row-cols-xl-4 row-cols-1 g-4">
+                                <div class="col">
+                                    <div class="card h-100 position-relative d-flex flex-column align-items-center">
+                                        <img src="images/main__cellphone1.png" class="card-img-top" alt="IPhone 12 Pro Max 128GB (Gray)">
+                                        <div class="card-body position-absolute p-0">
+                                            <h5 class="card-title">IPhone 12 Pro Max 128GB (Gray)</h5>
+                                            <p class="card-text">1300$</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100 position-relative d-flex flex-column align-items-center">
+                                        <img src="images/main__cellphone2.png" class="card-img-top" alt="IPhone 11 Pro 128GB (Yellow)">
+                                        <div class="card-body position-absolute p-0">
+                                            <h5 class="card-title">IPhone 11 Pro 128GB (Yellow)</h5>
+                                            <p class="card-text">700$</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100 position-relative d-flex flex-column align-items-center">
+                                        <img src="images/main__cellphone3.png" class="card-img-top" alt="IPhone 12 Pro 256 GB (Blue)">
+                                        <div class="card-body position-absolute p-0">
+                                            <h5 class="card-title">IPhone 12 Pro 256 GB (Blue)</h5>
+                                            <p class="card-text">1500$</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                    <div class="col"> 
+                                        <div class="card h-100 position-relative d-flex flex-column align-items-center">
+                                        <img src="images/main__cellphone4.png" class="card-img-top" alt="IPhone 11 Pro 256 GB (Red)">
+                                        <div class="card-body position-absolute p-0">
+                                            <h5 class="card-title">IPhone 11 Pro 256 GB (Red)</h5>
+                                            <p class="card-text">850$</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main__content_link">
+                                <a href="index_2.html" class="header__content_link d-inline-flex">LEARN MORE</a>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="main__cellphones">
+                        <div class="container-xxl">
+                            <h4 class="main__title" id="samsung">Samsung</h4>
+                            <div class="row row-cols-sm-2 row-cols-xl-4 row-cols-1 g-4">
+                                <div class="col">
+                                    <div class="card h-100 position-relative d-flex flex-column align-items-center">
+                                        <img src="images/main__samsung1.png" class="card-img-top" alt="Samsung Galaxy A51 4/64GB (Black)">
+                                        <div class="card-body position-absolute p-0">
+                                            <h5 class="card-title">Samsung Galaxy A51 4/64GB (Black)</h5>
+                                            <p class="card-text">230$</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100 position-relative d-flex flex-column align-items-center">
+                                        <img src="images/main__samsung2.png" class="card-img-top" alt="Samsung Galaxy A21S 3/32GB (Blue)">
+                                        <div class="card-body position-absolute p-0">
+                                            <h5 class="card-title">Samsung Galaxy A21S 3/32GB (Blue)</h5>
+                                            <p class="card-text">250$</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100 position-relative d-flex flex-column align-items-center">
+                                        <img src="images/main__samsung3.png" class="card-img-top" alt="Samsung Galaxy S10Lite 6/128GB (Blue)">
+                                        <div class="card-body position-absolute p-0">
+                                            <h5 class="card-title">Samsung Galaxy S10Lite 6/128GB (Blue)</h5>
+                                            <p class="card-text">535$</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                    <div class="col"> 
+                                        <div class="card h-100 position-relative d-flex flex-column align-items-center">
+                                        <img src="images/main__samsung4.png" class="card-img-top" alt="Samsung Galaxy A41 4/64GB (Blue)">
+                                        <div class="card-body position-absolute p-0">
+                                            <h5 class="card-title">Samsung Galaxy A41 4/64GB (Blue)</h5>
+                                            <p class="card-text">237$</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main__content_link">
+                                <a href="index_2.html" class="header__content_link d-inline-flex">LEARN MORE</a>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="main__cellphones">
+                        <div class="container-xxl">
+                            <h4 class="main__title" id="xiaomi">Xiaomi</h4>
+                            <div class="row row-cols-sm-2 row-cols-xl-4 row-cols-1 g-4">
+                                <div class="col">
+                                    <div class="card h-100 position-relative d-flex flex-column align-items-center">
+                                        <img src="images/main__xiaomi1.png" class="card-img-top" alt="Mi 10t Pro 8/256GB (Black)">
+                                        <div class="card-body position-absolute p-0">
+                                            <h5 class="card-title">Mi 10t Pro 8/256GB (Black)</h5>
+                                            <p class="card-text">730$</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100 position-relative d-flex flex-column align-items-center">
+                                        <img src="images/main__xiaomi2.png" class="card-img-top" alt="
+                                        Xiaomi mi 10t Pro 8/256GB (Silver)">
+                                        <div class="card-body position-absolute p-0">
+                                            <h5 class="card-title">
+                                                Xiaomi mi 10t Pro 8/256GB (Silver)</h5>
+                                            <p class="card-text">727$</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100 position-relative d-flex flex-column align-items-center">
+                                        <img src="images/main__xiaomi3.png" class="card-img-top" alt="Mi 10 Lite 6/64GB (Grey)">
+                                        <div class="card-body position-absolute p-0">
+                                            <h5 class="card-title">Mi 10 Lite 6/64GB (Grey)</h5>
+                                            <p class="card-text">337$</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                    <div class="col"> 
+                                        <div class="card h-100 position-relative d-flex flex-column align-items-center">
+                                        <img src="images/main__xiaomi4.png" class="card-img-top" alt="Mi 10 Lite 6/64GB (Blue)">
+                                        <div class="card-body position-absolute p-0">
+                                            <h5 class="card-title">Mi 10 Lite 6/64GB (Blue)</h5>
+                                            <p class="card-text">325$</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main__content_link">
+                                <a href="index_2.html" class="header__content_link d-inline-flex">LEARN MORE</a>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="main__xbox">
+                        <div class="container-fluid p-0">
+                            <div class="row g-0">
+                                <div class="col-xxl-2 d-xxl-block d-none main__xbox_background"></div>
+                                <div class="col-12 col-xxl-8 position-relative main__xbox_about">
+                                    <img src="images/main__xbox_img.png" alt="Xbox Wireless Controller" class="main__xbox_img w-100" id="consoles2">
+                                    <div class="main__xbox_content">
+                                        <h3 class="main__xbox_title">Xbox Wireless Controller</h3>
+                                        <p class="main__xbox_description">Textured triggers and bumpers I Hybrid D-pad I Button mapping I Bluetooth</p>
+                                        <div class="main__content_link">
+                                            <a href="#" class="header__content_link d-inline-flex">ADD TO CART</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-2 d-xxl-block d-none main__xbox_background"></div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <section class="footer__content">
+            <div class="container-xxl">
+                <div class="row">
+                    <div class="col-12 col-xxl-2 d-flex align-items-center justify-content-center">
+                        <a href="#"><span class="footer__logo"></span></a>
+                    </div>
+                    <div class="col-12 col-xxl-8 d-flex align-items-center justify-content-center">
+                        <div class="footer__center">
+                            <a href="#" class="footer__subscribe">Subscribe to Newsletter</a>
+                            <form class="d-flex justify-content-center footer__centralize" action="#">
+                                <input class="footer__search" type="search" aria-label="Search">
+                                <button type="submit">
+                                    <div class="footer__button_description">
+                                        <div class="footer__button_info">
+                                            SING UP
+                                        </div>
+                                    </div>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-12 col-xxl-2 d-flex justify-content-center align-items-end footer__smedia_center">
+                        <div class="footer__socialmedias">
+                            <a href="#" class="footer__socialmedias_link"><img src="images/footer__icon1.png" alt="Telegram" class="footer__socialmedias_icon1"></a>
+                            <a href="#" class="footer__socialmedias_link"><img src="images/footer__icon2.png" alt="Facebook" class="footer__socialmedias_icon2"></a>
+                            <a href="#" class="footer__socialmedias_link"><img src="images/footer__icon3.png" alt="Instagram" class="footer__socialmedias_icon3"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xxl-3 d-xxl-block d-none p-0"></div>
+                    <div class="col-12 col-xxl-9 d-flex align-items-center justify-content-center justify-content-xxl-start p-0">
+                        <ul class="footer__list d-flex">
+                            <li class="footer__list_item"><a href="#" class="footer__list_link">News</a></li>
+                            <li class="footer__list_item"><a href="#" class="footer__list_link">Help</a></li>
+                            <li class="footer__list_item"><a href="#" class="footer__list_link">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="libs/bootstrap.min.js"></script>
+</body>
+</html>
