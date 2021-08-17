@@ -112,7 +112,6 @@ html {
     content: url("../images/header__logo.png");
 }
 .header__navbar_search {
-    color: var(--secondary-color);
     width: 440px;
     font-size: 14px;
     line-height: 19px;
